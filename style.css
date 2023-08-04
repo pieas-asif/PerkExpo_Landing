@@ -1,0 +1,26 @@
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #000000, #1663bb);
+}
+
+h1 {
+  font-size: 5 rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Letter bolder in pixels */
+/* .main_text {
+  width: 1000px;
+} */
+
+/* Letter spacing in pixels */
+.my-text {
+  letter-spacing: -2px;
+}
