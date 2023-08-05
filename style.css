@@ -26,7 +26,13 @@ a {
 
 /* Letter spacing in pixels */
 .my-text {
-  letter-spacing: -4px;
+  letter-spacing: -5px;
+  line-height: 50px;
+}
+
+.my-text_h4 {
+  letter-spacing: -2px;
+  line-height: 35px;
 }
 
 /* Media query for medium-sized screens  768*/
