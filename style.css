@@ -24,3 +24,13 @@ a {
 .my-text {
   letter-spacing: -2px;
 }
+
+/* Media query for medium-sized screens */
+@media screen and (max-width: 768px) {
+  .my-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Align items to the center */
+  }
+}
