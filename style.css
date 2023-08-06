@@ -60,6 +60,10 @@ a {
 
 /* Media query for medium-sized screens  768*/
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
   .logo_width {
     width: 55px;
   }
@@ -88,5 +92,9 @@ a {
 
   .img_width {
     width: 200px;
+  }
+
+  .banner_img {
+    width: 80% !important;
   }
 }
