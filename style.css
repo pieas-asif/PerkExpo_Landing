@@ -20,6 +20,9 @@ a {
   text-decoration: none;
 }
 
+.logo_width {
+  width: 100px;
+}
 /* Letter bolder in pixels */
 /* .main_text {
   width: 1000px;
@@ -48,8 +51,25 @@ a {
   justify-content: center;
 }
 
+.img_width {
+  width: 300px;
+}
+
 /* Media query for medium-sized screens  768*/
 @media screen and (max-width: 768px) {
+  .logo_width {
+    width: 55px;
+  }
+
+  .my-text {
+    letter-spacing: -3px;
+    line-height: 25px;
+  }
+
+  .my-text_h4 {
+    letter-spacing: -1.5px;
+    line-height: 20px;
+  }
   .my-items {
     display: flex;
     flex-direction: column;
@@ -57,10 +77,14 @@ a {
     justify-content: center;
   }
   h1 {
-    font-size: 2.8rem !important;
+    font-size: 2rem !important;
   }
 
   h4 {
     font-size: 1.4rem !important;
+  }
+
+  .img_width {
+    width: 200px;
   }
 }
